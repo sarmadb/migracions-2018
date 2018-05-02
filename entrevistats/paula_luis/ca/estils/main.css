@@ -1,0 +1,109 @@
+body {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+}
+
+.grid-container {
+  min-height: 100vh;
+  background-image: url('../imagenes/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-container>div {
+  min-height: 100vh;
+}
+
+.quadre-central {
+  background-image: url('../imagenes/paula.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 6px solid #e3e3e3;
+  min-height: 70vh;
+  min-width: 70vw;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.title-bar {
+  background-color: #ffffff;
+  color: #2ba6cb;
+}
+
+.title-bar-title {
+  font-weight: 400;
+}
+
+.title-bar .menu-icon {
+  background-color: #2ba6cb;
+}
+
+.menu {
+  background-color: #ffffff;
+}
+
+.contingut {
+  min-height: 65vh;
+}
+
+.nom {
+  color: #ffffff;
+  background-color: rgba(238, 238, 238, 0.35);
+}
+
+.enllac-retorn {
+  position: fixed;
+  left: 2vh;
+  top: 2vh;
+  color: #7d7d7d;
+}
+
+.enllac-retorn:hover {
+  cursor: pointer;
+}
+
+.enllac-cat {
+  position: fixed;
+  color: black;
+  right: 275px;
+  bottom: 100px;
+  color: red;
+}
+
+.enllac-cat:hover {
+  color: orange;
+}
+
+.barra {
+  position: fixed;
+  color: black;
+  right: 260px;
+  bottom: 100px;
+  font-weight: bold;
+}
+
+.enllac-es {
+  position: fixed;
+  color: black;
+  right: 230px;
+  bottom: 100px;
+  color: red;
+}
+
+.enllac-es:hover {
+  color: rgb(203, 205, 27);
+}

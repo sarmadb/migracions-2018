@@ -1,0 +1,102 @@
+body {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  background-color: rgb(177, 4, 4);
+  background-image: url('../imagenes/colombia.jpg');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+}
+
+.grid-container {
+  min-height: 100vh;
+}
+
+.grid-container {
+  min-height: 100vh;
+}
+
+.quadre-central_entrevista {
+  background-image: url('../imagenes/');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.quadre-central-objetos {
+  background-image: url('../imagenes/andrea.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.quadre-central_alumnos {
+  background-image: url('../imagenes/alumnos.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.quadre-central {
+  background-image: url('../imagenes/andreal.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.title-bar {
+  background-color: #ffffff;
+  color: #2ba6cb;
+}
+
+.title-bar-title {
+  font-weight: 400;
+}
+
+.title-bar .menu-icon {
+  background-color: #2ba6cb;
+}
+
+.menu {
+  background-color: #ffffff;
+}
+
+.contingut {
+  min-height: 65vh;
+}
+
+.nom {
+  color: #ffffff;
+  ;
+}
+
+.enllac-retorn {
+  position: fixed;
+  left: 2vh;
+  top: 2vh;
+  color: #fff;
+}
+
+.enllac-retorn:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+body {
+  background-image: url("../imagenes/fondo2.jpg");
+  background-repeat: round;
+}
+
+.quadre-central {
+  background-color: rgba(210, 210, 210, 0.3);
+}
+
+.nom {
+  color: #ffffff;
+}
+
+.enllac-retorn {
+  position: fixed;
+  left: 2vh;
+  top: 2vh;
+  color: #fff;
+}
+
+.enllac-retorn:hover {
+  cursor: pointer;
+}
+
+.foto1 {
+  width: 350px;
+  height: 450px;
+  border: 5px solid #fff;
+  transform: rotate(2deg);
+}
+
+.video {
+  width: 70%;
+  height: 70%;
+}
+
+.do-toggle {
+  color: #2ba6cb;
+}
+
+p {
+  padding: 0, 5rem;
+}
+
+.Alum {
+  width: auto;
+  border: 5px solid #fff;
+  transform: rotate(-2deg);
+}
+
+.objeto {
+  width: auto;
+  border: 5px solid #fff;
+  transform: rotate(1 deg);
+}

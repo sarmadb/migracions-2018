@@ -1,0 +1,54 @@
+body {
+  background-image: url("../imagenes/fondo.jpg");
+}
+
+.quadre-central {
+  background-color: rgba(210, 210, 210, 0.3);
+}
+
+.contingut {
+  min-height: 65vh;
+}
+
+.nom {
+  color: #ffffff;
+}
+
+.enllac-retorn {
+  position: fixed;
+  left: 2vh;
+  top: 2vh;
+  color: #fff;
+}
+
+.enllac-retorn:hover {
+  cursor: pointer;
+}
+
+.video {
+  width: 70%;
+  height: 70%;
+}
+
+.do-toggle {
+  color: #2ba6cb;
+}
+
+.foto1 {
+  width: auto;
+  border: 5px solid #fff;
+  transform: rotate(2deg);
+}
+
+.objeto {
+  width: 432.1px;
+  height: 432.1px;
+  border: 5px solid #fff;
+  transform: rotate(1 deg);
+}
+
+.Alum {
+  width: auto;
+  border: 5px solid #fff;
+  transform: rotate(-2deg);
+}

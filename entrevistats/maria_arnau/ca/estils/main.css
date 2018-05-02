@@ -1,0 +1,202 @@
+body {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  background-image: url('../imagenes/cordoba.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+}
+
+.grid-container {
+  min-height: 100vh;
+}
+
+.grid-container > div {
+  min-height: 100vh;
+}
+
+.eslogan {
+  font-family: "Chelsea Market", cursive;
+  font-size: 25px;
+}
+
+.quadre-central {
+ background-image: url('../imagenes/12345.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 30vh;
+  min-width: 30vw;
+}
+
+.quadre-central-altres {
+ background-color: inherit;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.quadre-central-bio {
+ background-color: inherit;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.quadre-central-alumnes {
+ background-color:  color: #rgba(255, 255, 255, 0.5);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.quadre-central-entrevista {
+ background-color: inherit;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+
+.header {
+  background-color: #ffffff;
+}
+
+.title-bar {
+  background-color: #ffffff;
+  color: #2ba6cb;
+}
+
+.title-bar-title {
+  font-weight: 400;
+}
+
+.title-bar .menu-icon {
+  background-color: #2ba6cb;
+}
+
+.menu {
+  background-color: #ffffff;
+}
+
+.contingut-alumnes {
+  min-height: 65vh;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contingut-entrevista {
+  min-height: 65vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  align-items: center;
+}
+
+.contingut {
+  min-height: 65vh;
+}
+
+.nom {
+  color: #000000;
+}
+
+.enllac-retorn {
+  position: fixed;
+  left: 2vh;
+  top: 2vh;
+  color: #fff;
+}
+
+.enllaç-retorn:hover {
+  cursor: pointer;
+  color: #2ba6cb;
+}
+
+.arribada{
+  height: 400px;
+}
+
+.titol-bio{
+  text-align: center;
+  font-family: "Chelsea Market", cursive;
+  font-weight: 400px;
+  color: #000000;
+  padding: 10px;
+}
+
+.descripcio-bio{
+  color: #000000;
+  text-align: left; padding-left: 10px;
+  font-size: 25px;
+  font-family: "EB Garamond"
+}
+
+video {
+  width: 80%;
+  height: 80%;
+  padding-left: 175px;
+
+}
+
+.alumnes{
+  text-align: center;
+  padding: 2px;
+  color: #000000;
+  font-size: 35px;
+  font-family: "EB Garamond";
+
+}
+
+.biografia{
+  background-color: rgba(255, 255, 255, 0.5);
+  min-height: 65vh;
+}
+
+.titol-obj{
+  text-align: center;
+  padding: 5px;
+  font-size: 40px;
+  font-family: "Chelsea Market"
+}
+
+.objecte-text{
+  text-align: center;
+  padding: 5px; padding-top: 25px;
+  font-size: 25px;
+  font-family: "EB Garamond";
+}
+
+.imgobj{
+  height: 425px;
+  width: 100%;
+  padding: 10px;
+
+}
+
+.titol-alumnes{
+  text-align: center;
+  font-family: "Chelsea Market";
+  padding: 5px;
+  font-size: 40px;
+}
+
+.maria{
+  background-color: rgba(255, 255, 255, 0.5)
+}

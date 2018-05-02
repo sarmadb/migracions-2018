@@ -1,0 +1,70 @@
+body {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+}
+
+.grid-container {
+  min-height: 100vh;
+}
+
+.grid-container>div {
+  min-height: 100vh;
+}
+
+.quadre-central {
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.title-bar {
+  background-color: #ffffff;
+  color: #42403D;
+}
+
+.title-bar-title {
+  font-weight: 400;
+  color: #42403D;
+}
+
+.title-bar .menu-icon {
+  background-color: #ffffff;
+  color: #42403D;
+}
+
+.menu {
+  background-color: #ffffff;
+  color: #42403D;
+}
+
+.contingut {
+  min-height: 65vh;
+}
+
+.nom {
+  color: #ffffff;
+}
+
+.enllac-retorn {
+  position: absolute;
+  left: 2vh;
+  top: 2vh;
+  color: #42403D;
+}
+
+.enllac-retorn:hover {
+  color: #42403D;
+}

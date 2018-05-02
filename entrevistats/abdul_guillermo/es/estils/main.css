@@ -1,0 +1,94 @@
+body {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+}
+
+.grid-container {
+  min-height: 100vh;
+}
+
+.grid-container > div {
+  min-height: 100vh;
+}
+
+.quadre-central {
+ background-image: url('../imagenes/haleile.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 7vh;
+  min-width: 7vw;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.title-bar {
+  background-color: #ffffff;
+  color: #2ba6cb;
+}
+
+.title-bar-title {
+  font-weight: 400;
+}
+
+.title-bar .menu-icon {
+  background-color: #2ba6cb;
+}
+
+.menu {
+  background-color: #ffffff;
+}
+
+.contingut {
+  min-height: 65vh;
+}
+
+.nom {
+  color: #ffffff;
+}
+
+.enllac-retorn {
+  position: fixed;
+  left: 2vh;
+  top: 2vh;
+  color: #fff;
+}
+
+.enllac-retorn:hover {
+  cursor: pointer;
+}
+.video-moro iframe {
+    position:align-center;
+    top: 0;
+    left: 0;
+
+}
+.moro_video {
+ background-color: #000000;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 7vh;
+  min-width: 7vw;
+width: auto;
+height: auto;
+}
+.videojil{
+
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+
+}

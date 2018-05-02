@@ -1,0 +1,175 @@
+body {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  background-color: #f7b2aa;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+}
+
+.grid-container {
+  min-height: 100vh;
+}
+
+.grid-container>div {
+  min-height: 100vh;
+}
+
+.quadre-central {
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.fondo {
+  background-image: url('../imagenes/imagen.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.title-bar {
+  background-color: #ffffff;
+  color: #2ba6cb;
+}
+
+.title-bar-title {
+  font-weight: 400;
+}
+
+.title-bar .menu-icon {
+  background-color: #2ba6cb;
+}
+
+.menu {
+  background-color: #ffffff;
+}
+
+.contingut {
+  min-height: 65vh;
+}
+
+.nom {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+  color: #ffffff;
+  margin-top: 55%;
+  margin-bottom: 20px;
+}
+
+.distancia {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+  color: #030303;
+  margin-right: 90px;
+}
+
+.enllaç-retorn {
+  position: fixed;
+  left: 2vh;
+  top: 2vh;
+  color: rgb(255, 255, 255);
+}
+
+.enllac-retorn:hover {
+  cursor: pointer;
+}
+
+.tamaño {
+  text-align: center;
+  background-color: rgb(251, 251, 251);
+  margin-top: 10px;
+}
+
+.separacion {
+  text-align: inherit;
+  margin-top: 2rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.longitud {
+  margin-top: 60px;
+  margin-bottom: 1rem;
+  margin-left: 50px;
+  height: 70%;
+  width: 70%;
+}
+
+.do-toggle {
+  text-align: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+.letra {
+  color: rgb(0, 0, 0);
+}
+
+.toggle {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.costat {
+  width: 700px;
+  height: 300px;
+  margin-left: 60px;
+  margin-top: 25px;
+}
+
+.moviento {
+  margin-left: 150px;
+  margin-top: 15px;
+}
+
+.medium-margin-collapse>.small-6 {
+  margin-top: 20px;
+  width: 400px;
+}
+
+.pos {
+  margin-left: 10px;
+  data-responsive-toggle  
+}
+
+.transparent {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 70px;
+}
+
+.ancho {
+  text-align: center;
+}
+
+.lugar {
+  position: static;
+  height: auto;
+  height: 250px;
+  width: 250px;
+  width: auto;
+  margin-left: auto;
+  margin-left: 250px;
+  margin-right: auto;
+  margin-right: 50px;
+  margin-top: auto;
+  margin-top: 80px;
+  margin-bottom: auto;
+  margin-bottom: 4rem;
+}
+.video{
+  data-responsive-toggle
+  margin-left: auto;
+  margin-left: 250px;
+  margin-top: auto;
+}

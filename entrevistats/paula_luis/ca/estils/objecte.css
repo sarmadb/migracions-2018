@@ -1,0 +1,109 @@
+body {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  padding-left: 35px;
+}
+
+p {
+  padding-right: 35px;
+  padding-left: 35px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.grid-container {
+  min-height: 100vh;
+  background-image: url('../imagenes/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-container>div {
+  min-height: 100vh;
+}
+
+.quadre-central {
+  background-color: rgba(255, 255, 255, 0.95);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 6px solid #e3e3e3;
+  min-height: 70vh;
+  min-width: 70vw;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.title-bar {
+  background-color: #ffffff;
+  color: #2ba6cb;
+}
+
+.title-bar-title {
+  font-weight: 400;
+}
+
+.title-bar .menu-icon {
+  background-color: #2ba6cb;
+}
+
+.menu {
+  background-color: #ffffff;
+}
+
+.contingut {
+  min-height: 65vh;
+}
+
+.nom {
+  color: #ffffff;
+}
+
+.enllac-retorn {
+  position: fixed;
+  left: 2vh;
+  top: 2vh;
+  color: #7d7d7d;
+}
+
+.enllac-retorn:hover {
+  cursor: pointer;
+}
+
+.mapa {
+  padding-left: 35px;
+  padding-bottom: 35px;
+}
+
+.imgfondo1 {
+  background-image: url('../imagenes/objeto.jpg');
+  background-size: cover;
+  margin-left: 35px;
+  min-height: 65vh;
+  flex: initial;
+}
+
+.imgfondo2 {
+  background-image: url('../imagenes/bandera.jpg');
+  background-size: cover;
+  margin-right: 35px;
+  min-height: 65vh;
+}
+
+.ti2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

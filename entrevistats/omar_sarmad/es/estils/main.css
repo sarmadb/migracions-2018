@@ -1,0 +1,99 @@
+body {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  background-image: url(../imagenes/waall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 50px;
+}
+
+.grid-container {
+  min-height: 100vh;
+}
+
+.grid-container>div {
+  min-height: 100vh;
+}
+
+.quadre-central {
+  background-color: rgba(195, 173, 21, 0.4);
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.title-bar {
+  background-color: #ffffff;
+  color: #2ba6cb;
+}
+
+.title-bar-title {
+  font-weight: 400;
+}
+
+.title-bar .menu-icon {
+  background-color: #2ba6cb;
+}
+
+.menu {
+  background-color: #ffffff;
+}
+
+.contingut {
+  min-height: 65vh;
+}
+
+.nom {
+  color: #ffffff;
+}
+
+h5 {
+  font-family: 'Chelsea Market';
+  font-weight: 25px;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 25px;
+
+}
+
+.Torna {
+  font-size: 20px;
+  position: fixed;
+  left: 2vh;
+  top: 2vh;
+  color: #ffffff;
+}
+.team-thumb {
+  border-radius: 25%;
+  width: 500px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.vidio {}
+
+.row {
+  margin-bottom: 30px;
+  margin-left: -20px;
+}
+
+.fondo {
+  background-image: url("../imagenes/foto omar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
